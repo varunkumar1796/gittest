@@ -15,7 +15,7 @@ void setup() {
 
 void loop() {
   for(int i = 0; i < NUM_LEDS; i++) {
-    leds[i] = CRGB::Green; // Set all LEDs to red
+    leds[i] = CRGB::Blue; // Set all LEDs to red
     FastLED.show();
     delay(50);
     leds[i] = CRGB::Black; // Turn off the LED
